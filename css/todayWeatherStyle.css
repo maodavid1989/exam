@@ -1,0 +1,21 @@
+div {
+	border-color:#000000; 
+	border-bottom-style:solid; 
+}
+
+div,tr {
+	font-family: Arial;
+	font-size:16px;
+}
+
+table, tr, td, span, div{
+	padding:4px;
+}
+
+#notfound {
+	font-family: Arial;
+	font-size : 16px;
+	padding : 4px;
+	border : 1px solid red;
+	background-color: #fff5f5;
+}

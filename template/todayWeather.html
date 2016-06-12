@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+<link rel="stylesheet" href="../css/todayWeatherStyle.css"/>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../js/todayWeatherController.js"></script>
+<script type="text/javascript" src="../js/jquery.blockUI.js"></script>
+
+
+<body>
+	<div>
+		Today's Weather
+	</div>
+	<br/>
+	<table id="tnotfound" width="40%">
+		<tr>
+			<td id="notfound" width="100%"><img src="../img/notfound.png" width="20px" height="20px">&nbsp;Not found city
+			</td>
+		</tr>
+	</table>
+	<table id="wTable">
+		<tr>
+			<span>City:</span>
+				<input id="city" type=""></input>&nbsp;&nbsp;
+			<span>Country:</span>
+				<input id="country" type=""></input>&nbsp;&nbsp;
+			<button id="search">Search</button>
+			<br/>
+			<td>
+				<img id="weatherImg"  src="">
+			</td>
+			<td>
+				<span id="detail"></span>
+			</td>
+			<br/>
+		</tr>
+	</table>
+	<table id="wTable2">
+		<tr>
+			<td>Temperature:</td>
+			<td><span id="temperature"></span></td>
+		</tr>
+		<tr>
+			<td>Humidity:</td>
+			<td><span id="humidity"></span></td>
+			
+		</tr>
+	</table>
+</body>
+
+
